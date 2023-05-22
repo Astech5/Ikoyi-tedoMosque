@@ -1,0 +1,41 @@
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+header > naav,
+ul {
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;*/
+  justify-content: space-between;
+}
+
+li {
+  padding: 1rem;
+}
+
+.mosque-program > ul {
+  display: block;
+  padding: 0;
+  /* background-color: blue;*/
+}
+
+.box-sizing > ul {
+  display: flex;
+  gap: 1rem;
+  text-justify: unset;
+  margin-botto: 0%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0%;
+  padding-top: 1rem;
+  justify-items: center;
+  /*justify-content: center;*/
+}
+
+@media all and (max-width: 500px) {
+  body {
+    color: blue;
+  }
+}
